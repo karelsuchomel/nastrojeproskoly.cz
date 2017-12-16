@@ -3,6 +3,6 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-title: Tools for schools
+title: No matter the size, schools deserve the best
 ---
-Hi there, I'm Karel Suchomel and I would like to build a somple site to resent my idea... my paper on what should tools for schools look like.
+Full fill the potential of the online tools. Enpower teachers to create greater studying materials and courses. Share and learn from the network of all other teachers.
