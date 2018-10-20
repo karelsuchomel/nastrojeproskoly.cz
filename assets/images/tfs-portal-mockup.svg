@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="tfs-portal-mockup.svg"
+   inkscape:version="0.91 r13725"
+   id="svg2"
+   viewBox="0 0 580.00001 550.00001"
+   version="1.1"
+   height="550"
+   width="580">
+  <sodipodi:namedview
+     inkscape:current-layer="svg2"
+     inkscape:window-maximized="1"
+     inkscape:window-y="24"
+     inkscape:window-x="0"
+     inkscape:cy="157.57891"
+     inkscape:cx="341.12344"
+     inkscape:zoom="1"
+     showgrid="false"
+     id="namedview155"
+     inkscape:window-height="1056"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs4">
+    <filter
+       color-interpolation-filters="sRGB"
+       height="1.1249"
+       width="1.1155"
+       y="-.06246"
+       x="-.057726"
+       id="b">
+      <feGaussianBlur
+         id="feGaussianBlur7"
+         stdDeviation="12.579527" />
+    </filter>
+    <clipPath
+       id="c">
+      <rect
+         id="rect10"
+         fill-opacity=".2132"
+         ry="7"
+         height="483.36"
+         width="523"
+         y="-717"
+         x="1016" />
+    </clipPath>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1 0 0 1.6094 0 311.78)"
+       y2="-537.17"
+       y1="-510.62"
+       x2="1365.8"
+       x1="1365.8"
+       id="a">
+      <stop
+         id="stop13"
+         offset="0"
+         stop-color="#f0f0f0" />
+      <stop
+         id="stop15"
+         offset="1"
+         stop-opacity="0"
+         stop-color="#f0f0f0" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata17">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g19"
+     transform="translate(0 -502.36)">
+    <g
+       id="g21"
+       transform="translate(2.4051 -1.9955)">
+      <rect
+         id="rect23"
+         filter="url(#b)"
+         fill-opacity=".19608"
+         height="483.36"
+         width="523"
+         y="539.25"
+         x="27.786"
+         transform="matrix(.99353 0 0 .99348 .17966 3.5164)" />
+      <g
+         id="g25"
+         clip-path="url(#c)"
+         transform="translate(-988.21 1234.3)">
+        <rect
+           transform="matrix(1.000000,0.000000,0.000000,1.000000,0.000000,0.000000)"
+           id="rect27"
+           fill="#f0f0f0"
+           ry="0"
+           height="483.0"
+           width="523.0"
+           y="-717.0"
+           x="1016.0" />
+        <rect
+           id="rect29"
+           fill="#fff"
+           height="169"
+           width="395"
+           y="-679"
+           x="1144" />
+        <rect
+           id="rect31"
+           fill="url(#a)"
+           height="51.5"
+           width="395"
+           y="-560.5"
+           x="1144" />
+        <rect
+           id="rect33"
+           fill="#fff"
+           height="445"
+           width="130"
+           y="-679"
+           x="1016" />
+        <path
+           id="path35"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1016.5-678.5h523" />
+        <rect
+           id="rect37"
+           fill="#6b61cb"
+           height="38"
+           width="523"
+           y="-717"
+           x="1016" />
+        <rect
+           id="rect39"
+           stroke-dashoffset="5.4"
+           stroke="#e1e1e1"
+           fill="#fff"
+           height="308"
+           width="251"
+           y="-541.5"
+           x="1157.5" />
+        <path
+           id="path41"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1145.5-678.5v445" />
+        <path
+           id="path43"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1145-645.5h-129" />
+        <path
+           id="path45"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1145-612.5h-129" />
+        <path
+           id="path47"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1145-579.5h-129" />
+        <path
+           id="path49"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1145-546.5h-129" />
+        <path
+           id="path51"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1145-513.5h-129" />
+        <path
+           id="path53"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1145-480.5h-129" />
+        <path
+           id="path55"
+           stroke-width="2"
+           stroke="#c8c8c8"
+           fill="none"
+           d="m1423-542v132" />
+        <circle
+           id="circle57"
+           stroke-width="3"
+           stroke-dashoffset="5.4"
+           stroke="#f0f0f0"
+           fill="#c8c8c8"
+           r="3.1474"
+           cy="-532.62"
+           cx="1422.9" />
+        <rect
+           id="rect59"
+           fill="#e1e1e1"
+           height="8"
+           width="79"
+           y="-666"
+           x="1029" />
+        <rect
+           id="rect61"
+           fill="#e1e1e1"
+           height="8"
+           width="98"
+           y="-633"
+           x="1029" />
+        <rect
+           id="rect63"
+           fill="#e1e1e1"
+           height="8"
+           width="92"
+           y="-600"
+           x="1029" />
+        <rect
+           id="rect65"
+           fill="#e1e1e1"
+           height="8"
+           width="83"
+           y="-568"
+           x="1028" />
+        <rect
+           id="rect67"
+           fill="#e1e1e1"
+           height="8"
+           width="33"
+           y="-533"
+           x="1029" />
+        <rect
+           id="rect69"
+           fill="#e1e1e1"
+           height="8"
+           width="61"
+           y="-501"
+           x="1029" />
+        <rect
+           id="rect71"
+           fill="#c8c8c8"
+           height="5"
+           width="33"
+           y="-535"
+           x="1429" />
+        <rect
+           id="rect73"
+           fill="#e1e1e1"
+           height="8"
+           width="84"
+           y="-524"
+           x="1429" />
+        <rect
+           id="rect75"
+           fill="#e1e1e1"
+           height="8"
+           width="69"
+           y="-509"
+           x="1429" />
+        <circle
+           id="circle77"
+           stroke-width="3"
+           stroke-dashoffset="5.4"
+           stroke="#f0f0f0"
+           fill="#c8c8c8"
+           r="3.1474"
+           cy="-483.09"
+           cx="1422.9" />
+        <rect
+           id="rect79"
+           fill="#c8c8c8"
+           height="5"
+           width="33"
+           y="-485"
+           x="1429" />
+        <rect
+           id="rect81"
+           fill="#e1e1e1"
+           height="8"
+           width="48"
+           y="-474"
+           x="1429" />
+        <rect
+           id="rect83"
+           fill="#e1e1e1"
+           height="8"
+           width="68"
+           y="-459"
+           x="1429" />
+        <circle
+           id="circle85"
+           stroke-width="3"
+           stroke-dashoffset="5.4"
+           stroke="#f0f0f0"
+           fill="#c8c8c8"
+           r="3.1474"
+           cy="-433.56"
+           cx="1422.9" />
+        <rect
+           id="rect87"
+           fill="#c8c8c8"
+           height="5"
+           width="33"
+           y="-436"
+           x="1429" />
+        <rect
+           id="rect89"
+           fill="#e1e1e1"
+           height="8"
+           width="61"
+           y="-425"
+           x="1429" />
+        <rect
+           id="rect91"
+           fill="#fff9e0"
+           ry="0"
+           height="31"
+           width="250"
+           y="-541"
+           x="1158" />
+        <rect
+           id="rect93"
+           fill="#e1e1e1"
+           height="8"
+           width="52"
+           y="-533"
+           x="1168" />
+        <rect
+           id="rect95"
+           fill="#e1e1e1"
+           height="13"
+           width="1"
+           y="-535"
+           x="1224" />
+        <rect
+           id="rect97"
+           fill="#e1e1e1"
+           height="8"
+           width="172"
+           y="-533"
+           x="1229" />
+        <rect
+           id="rect99"
+           fill="#e1e1e1"
+           height="4"
+           width="34"
+           y="-522"
+           x="1168" />
+        <path
+           id="path101"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1157.5-509.5h250" />
+        <path
+           id="path103"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1157.5-453.5h250" />
+        <rect
+           id="rect105"
+           fill="#e1e1e1"
+           height="8"
+           width="52"
+           y="-501"
+           x="1247" />
+        <rect
+           id="rect107"
+           fill="#e1e1e1"
+           height="5"
+           width="143"
+           y="-488"
+           x="1247" />
+        <rect
+           id="rect109"
+           fill="#e1e1e1"
+           height="5"
+           width="124"
+           y="-477"
+           x="1247" />
+        <rect
+           id="rect111"
+           fill="#e1e1e1"
+           height="39"
+           width="67"
+           y="-501"
+           x="1169" />
+        <path
+           id="path113"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1157.5-373.5h250" />
+        <rect
+           id="rect115"
+           fill="#e1e1e1"
+           height="8"
+           width="52"
+           y="-443"
+           x="1247" />
+        <rect
+           id="rect117"
+           fill="#e1e1e1"
+           height="5"
+           width="138"
+           y="-431"
+           x="1247" />
+        <rect
+           id="rect119"
+           fill="#e1e1e1"
+           height="5"
+           width="43"
+           y="-419"
+           x="1247" />
+        <rect
+           id="rect121"
+           fill="#e1e1e1"
+           height="59"
+           width="67"
+           y="-444"
+           x="1169" />
+        <path
+           id="path123"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1157.5-303.5h250" />
+        <rect
+           id="rect125"
+           fill="#e1e1e1"
+           height="8"
+           width="52"
+           y="-363"
+           x="1169" />
+        <rect
+           id="rect127"
+           fill="#e1e1e1"
+           height="33"
+           width="55"
+           y="-347"
+           x="1169" />
+        <path
+           id="path129"
+           stroke="#e1e1e1"
+           fill="none"
+           d="m1157.5-243.5h250" />
+        <rect
+           id="rect131"
+           fill="#e1e1e1"
+           height="8"
+           width="52"
+           y="-291"
+           x="1247" />
+        <rect
+           id="rect133"
+           fill="#e1e1e1"
+           height="5"
+           width="143"
+           y="-278"
+           x="1247" />
+        <rect
+           id="rect135"
+           fill="#e1e1e1"
+           height="5"
+           width="124"
+           y="-267"
+           x="1247" />
+        <rect
+           id="rect137"
+           fill="#e1e1e1"
+           height="39"
+           width="67"
+           y="-291"
+           x="1169" />
+        <rect
+           id="rect139"
+           fill="#e1e1e1"
+           height="33"
+           width="55"
+           y="-347"
+           x="1227" />
+        <rect
+           id="rect141"
+           fill="#e1e1e1"
+           height="33"
+           width="55"
+           y="-347"
+           x="1285" />
+        <rect
+           id="rect143"
+           fill="#e1e1e1"
+           height="33"
+           width="55"
+           y="-347"
+           x="1343" />
+        <rect
+           id="rect145"
+           fill-opacity=".58824"
+           fill="#fff"
+           height="8"
+           width="50"
+           y="-701.64"
+           x="1476" />
+        <rect
+           id="rect147"
+           fill-opacity=".58824"
+           fill="#fff"
+           height="8"
+           width="37"
+           y="-701.64"
+           x="1417" />
+        <rect
+           id="rect149"
+           fill-opacity=".58824"
+           fill="#fff"
+           height="8"
+           width="37"
+           y="-701.64"
+           x="1358" />
+        <rect
+           id="rect151"
+           fill-opacity=".58824"
+           fill="#fff"
+           height="8"
+           width="67"
+           y="-701"
+           x="1058" />
+        <circle
+           id="circle153"
+           fill-opacity=".58824"
+           fill="#fff"
+           r="10.74"
+           cy="-698.03"
+           cx="1039.3" />
+      </g>
+    </g>
+  </g>
+</svg>

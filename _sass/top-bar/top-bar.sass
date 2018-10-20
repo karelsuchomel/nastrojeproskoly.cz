@@ -1,0 +1,62 @@
+#top-bar
+	border-bottom: 1px solid #e7e7e7
+
+#content-wrapper
+	box-sizing: border-box
+	padding: 0 34px
+	margin: 0 auto
+	max-width: 1280px
+	&:after
+		content: ""
+		display: block
+		clear: both
+
+#main-navigation
+	float: left
+
+#secondary-navigation
+	float: right
+	
+nav
+	ul
+		margin: 0
+		padding: 0
+		list-style: none
+		&:after
+			content: ""
+			display: block
+			clear: both
+
+		li
+			display: block
+			float: left
+			font-size: 16px
+
+			&:first-of-type
+				a
+					margin-left: -18px
+
+			a
+				display: block
+				padding: 24px 18px
+
+				color: #323232
+				text-decoration: none
+
+		> .button
+			padding: 16px 0
+			a
+				padding: 8px 24px
+				border: 1px solid #323232
+				border-radius: 5px
+
+		> .faded a
+			color: #545454
+
+
+			
+			
+
+
+
+
