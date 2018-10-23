@@ -4,7 +4,7 @@
 		<ul>
 			<li>
 				<a 
-					{% if page.url != "/" %}href="/"{% endif %} 
+					{% if page.url != "/" %}href="index.html"{% endif %} 
 					{% if page.url == "/" %}class="highlight"{% endif %}
 				>
 					Nástroje pro školy
@@ -12,7 +12,7 @@
 			</li>
 			<li>
 				<a 
-					{% if page.url != "/co-to-umi" %}href="/co-to-umi"{% endif %} 
+					{% if page.url != "/co-to-umi" %}href="co-to-umi.html"{% endif %} 
 					{% if page.url == "/co-to-umi" %}class="highlight"{% endif %}
 				>
 					Co to umí?
@@ -20,13 +20,20 @@
 			</li>
 			<li>
 				<a 
-					{% if page.url != "/kolik-to-stoji" %}href="/kolik-to-stoji"{% endif %}
+					{% if page.url != "/kolik-to-stoji" %}href="kolik-to-stoji.html"{% endif %}
 					{% if page.url == "/kolik-to-stoji" %}class="highlight"{% endif %}
 				>
 					Kolik to stojí?
 				</a>
 			</li>
-			<li><a href="/o-programatorovi" {% if page.url == "/o-programatorovi" %}class="highlight"{% endif %}>O programátorovi</a></li>
+			<li>
+				<a 
+					{% if page.url != "/o-programatorovi" %}href="o-programatorovi.html"{% endif %}
+					{% if page.url == "/o-programatorovi" %}class="highlight"{% endif %}
+				>
+					O programátorovi
+				</a>
+			</li>
 		</ul>
 	</nav>
 	<nav id="secondary-navigation">
