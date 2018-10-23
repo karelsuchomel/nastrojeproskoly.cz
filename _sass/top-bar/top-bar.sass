@@ -11,12 +11,6 @@
 		display: block
 		clear: both
 
-#main-navigation
-	float: left
-
-#secondary-navigation
-	float: right
-	
 nav
 	ul
 		margin: 0
@@ -38,11 +32,17 @@ nav
 
 			a
 				display: block
+				position: relative
 				padding: 24px 18px
 
 				color: #323232
+				color: #545454
 				text-decoration: none
+				transition: color 0.2s
 
+				&:hover, &:active
+					color: #000
+				
 		> .button
 			padding: 16px 0
 			a
@@ -52,6 +52,46 @@ nav
 
 		> .faded a
 			color: #545454
+
+#main-navigation
+	float: left
+
+	ul li 
+		a
+			&:after
+				content: ""
+				display: block
+				position: absolute
+				width: calc(100% - 36px)
+				margin: 0 auto
+				height: 3px
+				background-color: #28215C
+				bottom: 15px
+				left: 0
+				right: 0
+				transform: scaleX(0)
+				transition: transform 0.2s
+
+			&:hover
+				&:after
+					transform: scaleX(1)
+
+			&:active
+				&:after
+					transition: transform 0s
+					transform: scaleX(1)
+
+		.highlight
+			font-weight: 600
+			cursor: default
+			color: #000
+			
+			&:after
+				transform: scaleX(1)
+
+#secondary-navigation
+	float: right
+	
 
 
 			

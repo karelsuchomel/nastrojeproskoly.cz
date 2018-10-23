@@ -2,10 +2,31 @@
 <div id="content-wrapper">
 	<nav id="main-navigation">
 		<ul>
-			<li><a href="/">Nástroje pro školy</a></li>
-			<li><a href="/about">Co to umí?</a></li>
-			<li><a href="/cv">Kolik to stojí?</a></li>
-			<li><a href="/blog">O programátorovi</a></li>
+			<li>
+				<a 
+					{% if page.url != "/" %}href="/"{% endif %} 
+					{% if page.url == "/" %}class="highlight"{% endif %}
+				>
+					Nástroje pro školy
+				</a>
+			</li>
+			<li>
+				<a 
+					{% if page.url != "/co-to-umi" %}href="/co-to-umi"{% endif %} 
+					{% if page.url == "/co-to-umi" %}class="highlight"{% endif %}
+				>
+					Co to umí?
+				</a>
+			</li>
+			<li>
+				<a 
+					{% if page.url != "/kolik-to-stoji" %}href="/kolik-to-stoji"{% endif %}
+					{% if page.url == "/kolik-to-stoji" %}class="highlight"{% endif %}
+				>
+					Kolik to stojí?
+				</a>
+			</li>
+			<li><a href="/o-programatorovi" {% if page.url == "/o-programatorovi" %}class="highlight"{% endif %}>O programátorovi</a></li>
 		</ul>
 	</nav>
 	<nav id="secondary-navigation">
