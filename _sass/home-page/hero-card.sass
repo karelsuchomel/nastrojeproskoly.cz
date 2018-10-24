@@ -45,7 +45,44 @@
 			transition: background-color 0s
 			background-color: #382C8C
 
-	img
+	.layout-graphic
 		float: right
+		display: block
 		width: 580px
 		max-width: 100%
+
+//
+// Responsive rules
+//
+
+@media screen and (max-width: 1280px)
+	#hero-card .segment-half .layout-graphic
+		padding: 48px 
+		float: none
+		box-sizing: border-box
+
+@media screen and (max-width: 1180px)
+	#hero-card .segment-half
+		h1
+			margin: 34px 0
+			font-size: 60px
+			line-height: 1.1
+
+			> svg
+				margin-bottom: -20px
+				height: 80px
+				widht: 80px
+
+@media screen and (max-width: 1080px)
+	#hero-card .segment-half
+		width: 100%
+		max-width: 550px
+		margin: 0 auto
+		float: none
+		&:nth-child(2)
+
+	#hero-card .segment-half .layout-graphic
+		padding: 0 
+		clip: 0 0 250px
+		clip-path: inset(0 0 250px)
+
