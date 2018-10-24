@@ -1,4 +1,9 @@
 #hero-card .segment-half
+	&:nth-child(2)
+		padding: 48px
+		padding-left: 68px
+		box-sizing: border-box
+
 	h1
 		margin: 34px 0
 		color: #28215C
@@ -25,7 +30,6 @@
 
 	> button
 		margin: 48px 0
-		padding: 10px 24px
 		padding: 16px 36px
 		border: 0px
 		border-radius: 5px
@@ -50,21 +54,21 @@
 		display: block
 		width: 580px
 		max-width: 100%
+		box-shadow: 0 9px 15px 5px rgba(0,0,0,0.05), 0 2px 4px 2px rgba(0,0,0,0.065)
 
 //
 // Responsive rules
 //
 
 @media screen and (max-width: 1280px)
-	#hero-card .segment-half .layout-graphic
-		padding: 48px 
-		float: none
-		box-sizing: border-box
+	#hero-card .segment-half 
+		&:nth-child(2)
+			.layout-graphic
+				float: none
 
 @media screen and (max-width: 1180px)
 	#hero-card .segment-half
 		h1
-			margin: 34px 0
 			font-size: 60px
 			line-height: 1.1
 
@@ -76,13 +80,30 @@
 @media screen and (max-width: 1080px)
 	#hero-card .segment-half
 		width: 100%
-		max-width: 550px
+		max-width: 580px
 		margin: 0 auto
 		float: none
+
 		&:nth-child(2)
+			padding: 0px
 
-	#hero-card .segment-half .layout-graphic
-		padding: 0 
-		clip: 0 0 250px
-		clip-path: inset(0 0 250px)
+		h1
+			margin: 0 0 34px
 
+
+@media screen and (max-width: 640px)
+	#hero-card .segment-half 
+		h1
+			font-size: 40px
+			line-height: 1.1
+			margin: 48px 0 16px
+
+			> svg
+				margin-bottom: -15px
+				height: 50px
+				widht: 50px
+
+		> button
+			display: block
+			margin: 32px auto
+			padding: 22px 48px
