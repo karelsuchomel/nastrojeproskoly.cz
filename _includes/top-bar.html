@@ -1,45 +1,45 @@
 <div id="top-bar">
-<div id="content-wrapper">
+<div id="top-bar-content-wrapper">
+	<input type="checkbox" id="main-menu-toggle-checkbox">
 	<nav id="main-navigation">
 		<ul>
-			<li>
+			<li {% if page.url == "/" %}class="highlight"{% endif %}
+			>
 				<a 
 					{% if page.url != "/" %}href="index.html"{% endif %} 
-					{% if page.url == "/" %}class="highlight"{% endif %}
 				>
-					Nástroje pro školy
+					Školní portál
 				</a>
 			</li>
-			<li>
+			<li {% if page.url == "/co-to-umi.html" %}class="highlight"{% endif %}
+			>
 				<a 
 					{% if page.url != "/co-to-umi.html" %}href="co-to-umi.html"{% endif %} 
-					{% if page.url == "/co-to-umi.html" %}class="highlight"{% endif %}
 				>
 					Co to umí?
 				</a>
 			</li>
-			<li>
+			<li {% if page.url == "/kolik-to-stoji.html" %}class="highlight"{% endif %}
+			>
 				<a 
 					{% if page.url != "/kolik-to-stoji.html" %}href="kolik-to-stoji.html"{% endif %}
-					{% if page.url == "/kolik-to-stoji.html" %}class="highlight"{% endif %}
 				>
 					Kolik to stojí?
 				</a>
 			</li>
-			<li>
-				<a 
-					{% if page.url != "/o-programatorovi.html" %}href="o-programatorovi.html"{% endif %}
-					{% if page.url == "/o-programatorovi.html" %}class="highlight"{% endif %}
-				>
-					O programátorovi
-				</a>
-			</li>
 		</ul>
+		<label for="main-menu-toggle-checkbox" id="main-menu-toggle">
+			{% include arrow-down.svg %}
+		</label>
 	</nav>
 	<nav id="secondary-navigation">
 		<ul>
-			<li class="faded"><a href="/">Líbí se vám co dělám?</a></li>
-			<li class="button"><a href="/">Dejte mi vědět</a></li>
+			<li class="faded">
+				<a>Líbí se vám co dělám?</a>
+			</li>
+			<li class="button">
+				<a>Dejte mi vědět</a>
+			</li>
 		</ul>
 	</nav>
 </div>

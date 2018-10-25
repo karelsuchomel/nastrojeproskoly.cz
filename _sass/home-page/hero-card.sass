@@ -96,7 +96,7 @@
 		h1
 			font-size: 40px
 			line-height: 1.1
-			margin: 48px 0 16px
+			margin: 0 0 16px
 
 			> svg
 				margin-bottom: -15px
@@ -106,4 +106,10 @@
 		> button
 			display: block
 			margin: 32px auto
-			padding: 22px 48px
+			padding: 18px 42px
+			box-sizing: border-box
+
+@media screen and (max-width: 420px)
+	#hero-card .segment-half 
+		> button
+			width: 100%

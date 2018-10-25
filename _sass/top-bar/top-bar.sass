@@ -1,7 +1,9 @@
 #top-bar
 	border-bottom: 1px solid #e7e7e7
+	position: relative
+	z-index: 1
 
-#content-wrapper
+#top-bar-content-wrapper
 	box-sizing: border-box
 	padding: 0 34px
 	margin: 0 auto
@@ -31,27 +33,22 @@ nav
 					margin-left: -18px
 
 			a
-				display: block
+				display: inline-block
 				position: relative
 				padding: 24px 18px
 
-				color: #323232
 				color: #545454
 				text-decoration: none
-				transition: color 0.2s
+				transition: color 0.15s
 
 				&:hover, &:active
 					color: #000
-				
-		> .button
-			padding: 16px 0
-			a
-				padding: 8px 24px
-				border: 1px solid #323232
-				border-radius: 5px
 
-		> .faded a
-			color: #545454
+#main-menu-toggle-checkbox
+	display: none
+
+#main-menu-toggle
+	display: none
 
 #main-navigation
 	float: left
@@ -69,40 +66,145 @@ nav
 				bottom: 15px
 				left: 0
 				right: 0
-				transform: scaleX(0)
-				transition: transform 0.2s
+				transform: scale(0)
+				opacity: 0
+				transition: transform 0.15s, opacity 0.15s
 
 			&:hover
 				&:after
-					transform: scaleX(1)
+					opacity: 1
+					transform: scale(1)
 
 			&:active
 				&:after
-					transition: transform 0s
-					transform: scaleX(1)
+					transition: transform 0s, opacity 0s
+					opacity: 1
+					transform: scale(1)
 
-		.highlight
-			font-weight: 600
-			cursor: default
-			color: #000
-			
-			&:after
-				transform: scaleX(1)
+	.highlight a
+		font-weight: 600
+		cursor: default
+		color: #000
+		
+		&:after
+			opacity: 1
+			transform: scale(1)
 
 #secondary-navigation
 	float: right
+
+	ul
+		> .button
+			padding: 16px 0
+			-webkit-user-select: none
+			-moz-user-select: none
+			-ms-user-select: none
+			user-select: none
+			a
+				cursor: pointer
+				padding: 8px 24px
+				border: 1px solid #323232
+				border-radius: 5px
+				transition: color 0.15s, background-color 0.15s
+
+				&:hover
+					color: white
+					border: 1px solid #D70047
+					background-color: #D70047
+
+				&:active
+					transition: background-color 0s
+					color: white
+					border: 1px solid #B0003A
+					background-color: #B0003A
+
+		> .faded a
+			color: #545454
 
 //
 // Responsive rules
 //
 
-@media screen and (max-width: 1080px)
-	#main-navigation
+@media screen and (max-width: 840px)
+	#secondary-navigation
 		ul
+			> .faded
+				display: none
+				
+@media screen and (max-width: 640px)
+	#top-bar-content-wrapper
+		position: relative
+
+	#main-menu-toggle
+		display: block
+		float: left
+		border: 1px solid #323232
+		padding: 7px 12px
+		border-radius: 5px
+		-webkit-user-select: none
+		-moz-user-select: none
+		-ms-user-select: none
+		user-select: none
+		cursor: pointer
+		margin: 16px 0
+		color: #545454
+		transition: color 0.15s, background-color 0.15s
+
+		svg
+			width: 17px
+			height: 17px
+			.icon
+				transition: fill 0.15s
+				fill: #323232
+
+		&:hover
+			color: white
+			border: 1px solid #D70047
+			background-color: #D70047
+			svg .icon
+				fill: white
+
+		&:active
+			transition: background-color 0s
+			color: white
+			border: 1px solid #B0003A
+			background-color: #B0003A
+
+
+	#main-menu-toggle-checkbox
+		&:checked ~ nav ul
+			overflow: visible
+
+	#main-navigation
+		&:after
+			content: ""
+			display: block
+			clear: both
+		ul
+			display: flex
+			flex-direction: column
+			overflow: hidden
+			float: left
+			height: 50px
+			padding-top: 8px
+			margin-left: -18px
 			li
+				background-color: white
+				float: none
+				order: 1
 
+				&:first-of-type
+					a
+						margin-left: 0px
 
+				a
+					padding: 16px 18px
 
+					&:after
+						bottom: 7px
+
+			.highlight
+				order: -1
 
 			
 			
