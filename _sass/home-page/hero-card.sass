@@ -1,4 +1,16 @@
-#hero-card .segment-half
+#hero-card 
+	position: relative
+	> svg
+		position: absolute
+		bottom: 0
+		left: 0
+		right: 0
+		max-width: 100%
+		height: auto
+		display: block
+
+
+#hero-card-content .segment-half
 	&:nth-child(2)
 		padding: 48px
 		padding-left: 68px
@@ -6,7 +18,7 @@
 
 	h1
 		margin: 34px 0
-		color: #28215C
+		color: #332F4E
 		font-family: Spectral, serif
 		font-size: 80px
 		line-height: 1.2
