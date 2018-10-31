@@ -1,7 +1,22 @@
 #top-bar
+	position: absolute
+	top: 0
+	right: 0
+	left: 0
 	border-bottom: 1px solid #e7e7e7
-	position: relative
+	background-color: white
 	z-index: 1
+
+#page-content-dimmer
+	display: none
+	position: fixed
+	top: 0
+	right: 0
+	left: 0
+	bottom: 0
+	opacity: 0
+	background-color: black
+	transition: opacity 0.15s
 
 #top-bar-content-wrapper
 	box-sizing: border-box
@@ -174,10 +189,14 @@ nav
 
 
 	#main-menu-toggle-checkbox
-		&:checked ~ #main-navigation ul
+		&:checked ~ #wrapper-for-css-selector #top-bar #top-bar-content-wrapper #main-navigation ul
 			max-height: 150px
 			li
 				display: block
+
+		&:checked ~ #wrapper-for-css-selector #page-content-dimmer
+			display: block
+			opacity: 0.2
 
 	#main-navigation
 		&:after
