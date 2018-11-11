@@ -44,19 +44,22 @@
 	> button
 		margin: 48px 0
 		padding: 16px 36px
-		border: 0px
+		border: 1px solid #3834DE
 		border-radius: 5px
 		background-color: #4C3CBE
 		cursor: pointer
+		box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2)
+		transition: box-shadow 0.3s, background-color 0.3s
 
 		color: white
 		font-weight: 600
 		font-size: 18
 		text-transform: uppercase
 
-		&:hover
-			transition: background-color 0.2s
+		&:hover, &:focus
 			background-color: #5D4FC7
+			box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2), 0 0 0 5px #8CB3FF
+			outline: none
 
 		&:active
 			transition: background-color 0s
