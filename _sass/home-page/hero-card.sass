@@ -1,23 +1,22 @@
 #hero-card 
 	position: relative
-	background-position: -3px -3px
+	background-color: #EBF0F4
 
-	> svg
-		position: absolute
-		bottom: 0
-		left: 0
-		right: 0
-		max-width: 100%
-		width: 100%
-		height: auto
-		display: block
+#hero-card-content
+	padding-bottom: 0
 
+#hero-card-content .segment-part
+	width: 40%
 
-#hero-card-content .segment-half
 	&:nth-child(2)
-		padding: 48px
-		padding-left: 68px
+		width: 60%
+		padding-top: 48px
 		box-sizing: border-box
+
+		&:after
+			content: ""
+			display: block
+			clear: both
 
 	h1
 		margin: 34px 0
@@ -35,29 +34,29 @@
 		> a
 			color: inherit
 			text-decoration: none
-			box-shadow: inset 0 -8px #C9E1FD
+			box-shadow: inset 0 -8px #FEDC8F
 			transition: box-shadow 0.2s
 
 			&:hover, &:active, &:focus
-				box-shadow: inset 0 -25px #C9E1FD
+				box-shadow: inset 0 -25px #FEDC8F
 
 	> button
 		margin: 48px 0
-		padding: 18px 36px
+		padding: 15px 28px
 		border: 0
 		border-radius: 5px
-		background-image: linear-gradient(to top, #EE3D3E, #ee5253)
+		background-color: #8395a7
 		cursor: pointer
-		transition: box-shadow 0.3s
-		box-shadow: 0 1px 5px rgba(0,0,0,0.2)
+		transition: background-color 0.3s
 
 		color: white
 		font-weight: 700
 		font-size: 16px
 		text-transform: uppercase
+		letter-spacing: 0.05em
 
 		&:hover, &:focus, &:active
-			background-image: linear-gradient(to top, #ee5253, #ff6b6b)
+			background-color: #9BAAB8
 
 		
 
@@ -66,34 +65,27 @@
 		display: block
 		width: 580px
 		max-width: 100%
-		box-shadow: 0 9px 15px 5px rgba(0,0,0,0.05), 0 2px 4px 2px rgba(0,0,0,0.065)
 
 //
 // Responsive rules
 //
 
 @media screen and (max-width: 1280px)
-	#hero-card .segment-half 
-		&:nth-child(2)
-			.layout-graphic
-				float: none
 
 @media screen and (max-width: 1180px)
-	#hero-card .segment-half
+	#hero-card .segment-part
+		&:nth-child(2)
+			width: 100%
+
 		h1
 			font-size: 60px
 			line-height: 1.1
-
-			> svg
-				margin-bottom: -20px
-				height: 80px
-				widht: 80px
 
 @media screen and (max-width: 1080px)
 	#hero-card > svg
 		display: none
 
-	#hero-card .segment-half
+	#hero-card .segment-part
 		width: 100%
 		max-width: 580px
 		margin: 0 auto
@@ -107,7 +99,7 @@
 
 
 @media screen and (max-width: 640px)
-	#hero-card .segment-half 
+	#hero-card .segment-part 
 		h1
 			font-size: 40px
 			line-height: 1.1
@@ -120,14 +112,10 @@
 
 		> button
 			display: block
-			margin: 32px auto
-			padding: 18px 42px
+			margin: 32px 0
+			padding: 12px 22px
 			box-sizing: border-box
 
 @media screen and (max-width: 420px)
 	#hero-card-content
 		padding: 48px 17px
-
-	#hero-card .segment-half 
-		> button
-			width: 100%
