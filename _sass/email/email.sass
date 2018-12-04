@@ -1,0 +1,118 @@
+/////////////////////////////
+// defaults
+/////////////////////////////
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700&subset=latin-ext')
+@import url('https://fonts.googleapis.com/css?family=Spectral:800&subset=latin-ext')
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700&subset=latin-ext')
+
+img
+	display: block
+	max-width: 100%
+	height: auto
+
+.heading-styles
+	padding: 0 16px
+	color: #434343
+	font-family:  'Source Sans Pro', 'Helvetica', 'Open sans', 'Arial', sans-serif 
+	font-weight: 700
+
+//////////////////////////////
+// main styles
+//////////////////////////////
+
+body, html
+	padding: 0
+	margin: 0
+
+#page-wrapper
+	background-color: white
+	font-family:  'Source Sans Pro', 'Helvetica', 'Open sans', 'Arial', sans-serif 
+	max-width: 640px
+	padding: 0 10px
+	margin: 0 auto
+
+.pre-header
+	font-size: 0
+
+#content-wrapper
+	font-family: 'Spectal', serif
+	margin-bottom: 40px
+
+	#header
+
+		.info
+			padding: 8px 16px
+			margin-top: 16px
+			&:after
+				content: ""
+				display: block
+				clear: both
+
+			span, a
+				font-size: 14px
+				color: #545454
+				transition: color 0.3s
+			span
+				float: right
+
+			a 
+				float: left
+				&:hover, &:active, &:focus
+					color: #DD316A
+
+		img
+			border-radius: 5px
+
+#main-content-wrapper		
+	h1
+		@extend .heading-styles
+		display: inline-block
+		font-size: 24px
+		line-height: 24px
+		margin: 32px 0 0
+
+	h2
+		@extend .heading-styles
+		font-size: 18px
+		line-height: 24px
+		margin: 32px 0 -10px
+
+	h3
+		@extend .heading-styles
+		font-family: 'Spectal', serif
+		font-size: 14px
+		line-height: 18px
+		margin: 25px 0 -5px
+
+
+	p, ul
+		padding: 0 16px
+		font-size: 16px
+		line-height: 24px
+		color: #434343
+
+	p img
+		margin: 34px auto
+		border-radius: 5px
+
+	ul
+		list-style-position: inside
+
+	hr
+		margin: 40px 16px
+		border: 0
+		height: 1px
+		background-color: #DDD
+
+#footer
+	background-color: #f4f3f2
+	padding: 16px 16px 24px
+	border-radius: 5px 5px 0 0
+	color: white
+	a
+		font-size: 13px
+		color: #545454
+		transition: color 0.3s
+		&:hover, &:active, &:focus
+			color: #DD316A

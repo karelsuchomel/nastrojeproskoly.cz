@@ -13,7 +13,10 @@
    viewBox="0 0 1920.0001 720"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="home-page-bg-3.svg">
+   sodipodi:docname="home-page-bg-3.svg"
+   inkscape:export-filename="/var/www/html/tfs-present/_includes/home-page-bg.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
   <defs
      id="defs38" />
   <sodipodi:namedview
@@ -30,8 +33,8 @@
      id="namedview36"
      showgrid="false"
      inkscape:zoom="0.4743508"
-     inkscape:cx="703.51957"
-     inkscape:cy="302.74985"
+     inkscape:cx="1241.0964"
+     inkscape:cy="266.91139"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
