@@ -1,6 +1,7 @@
 #top-bar
 	background: #222f3e
-	z-index: 1
+	position: relative
+	z-index: 3
 
 #page-content-dimmer
 	display: none
@@ -151,8 +152,8 @@ nav
 	#main-menu-toggle
 		display: block
 		float: left
-		padding: 5px 12px
-		border-radius: 5px
+		padding: 0 12px
+		line-height: 50px
 		-webkit-user-select: none
 		-moz-user-select: none
 		-ms-user-select: none
@@ -166,19 +167,13 @@ nav
 			height: 17px
 			.icon
 				transition: fill 0.15s
-				fill: #323232
-
-		&:hover
-			color: white
-			background-color: #D70047
-			svg .icon
 				fill: white
 
-		&:active
-			transition: background-color 0s
+		&:hover, &:active, &:focus
 			color: white
-			background-color: #B0003A
-
+			background-color: white
+			svg .icon
+				fill: #222F3E
 
 	#main-menu-toggle-checkbox
 		&:checked ~ #wrapper-for-css-selector #top-bar #top-bar-content-wrapper #main-navigation ul
@@ -224,10 +219,6 @@ nav
 			padding: 9px 0
 			a
 				padding: 5px 16px
-			.desktop
-				display: none
-			.mobile
-				display: block
 
 	#main-navigation
 		ul 
