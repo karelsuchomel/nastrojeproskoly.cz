@@ -20,12 +20,16 @@
 	<div class="segment-part">
 		<picture>
 			<source 
+				srcSet="assets/images/tfs-portal-mockup-mobile-400w.png 400w, assets/images/tfs-portal-mockup-mobile-800w.png 800w"
+				media="(max-width: 420px)"
+			/>
+			<source 
 				srcSet="assets/images/tfs-portal-mockup-580w.png 580w, assets/images/tfs-portal-mockup-1160w.png 1160w"
-				sizes="500w"
+				media="(min-width: 421px)"
 			/>
 			<img 
-				class="layout-graphic"
-				src="assets/images/tfs-portal-mockup-1160w.png"
+				id="portal-mockup-graphic"
+				src="assets/images/tfs-portal-mockup-580w.png"
 				alt="Náhled/rozvržení hlavní strany portálu"
 			/>
 		</picture>
