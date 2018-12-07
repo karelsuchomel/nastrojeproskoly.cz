@@ -11,8 +11,13 @@
 		margin: 0 auto
 		position: relative
 
-#examples-homepage-segment
-	.content-wrap
+#examples-homepage-segment .content-wrap
+	.project-details
+		padding-right: 18px
+		margin: 0 auto
+		max-width: 600px
+		text-align: center
+
 		h2
 			font-family: 'Source Sans Pro', serif
 			margin: 26px 0 12px
@@ -30,21 +35,57 @@
 			margin: 0 0 12px
 			text-align: center
 
-		.project-details
-			padding-right: 18px
-			max-width: 400px
+		p
+			margin: 6px 0
+			font-size: 18px
+			color: #646464
+			line-height: 1.75
 
+			> a
+				color: inherit
+				text-decoration: none
+				box-shadow: inset 0 -1px #646464
 
-			p
-				margin: 6px 0
-				font-size: 18px
-				color: #646464
-				line-height: 1.75
+	#work-examples-container
+		&:after
+			content: ""
+			display: block
+			clear: both
 
-				> a
-					color: inherit
-					text-decoration: none
-					box-shadow: inset 0 -1px #646464
+		.work-column-container
+			float: left
+			padding: 34px 0
+			width: calc(33.333332% - 22.6666667px)
+
+			&:nth-of-type(3n - 1)
+				padding: 34px
+
+			.work-wrapper
+				margin-bottom: 34px
+
+				.work-container
+					border: 3px solid #8395a7
+					border-radius: 12px
+					padding: 17px
+
+					h4
+						font-family: 'Source Sans Pro', serif
+						font-size: 18px
+						line-height: 22px
+						color: #576574
+						margin: 12px 0 0
+
+					p
+						margin: 12px 0
+						font-size: 18px
+						color: #1D2732
+						line-height: 1.75
+
+					img
+						margin: 12px 0
+						max-width: 100%
+						height: auto
+
 
 @media screen and(max-width: 420px)
 	.grey-backdrop > .content-wrap

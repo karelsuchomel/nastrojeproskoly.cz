@@ -69,11 +69,12 @@
 		border-radius: 10px 10px 0 0
 		border: 3px solid #8395a7
 		border-bottom: 0
+		box-shadow: 0 0 0 6px #feca57
 		transition: box-shadow 0.3s
 		cursor: pointer
 
 	#portal-mockup-graphic.focused
-		box-shadow: 0 0 0 8px #feca57
+		box-shadow: 0 0 0 12px #feca57
 
 //
 // Responsive rules
@@ -83,9 +84,6 @@
 
 @media screen and (max-width: 1180px)
 	#hero-card .segment-part
-		&:nth-child(2)
-			width: 100%
-
 		h1
 			font-size: 60px
 			line-height: 1.1
@@ -102,6 +100,7 @@
 
 		&:nth-child(2)
 			padding: 0px
+			width: 100%
 
 		h1
 			margin: 0 0 34px
