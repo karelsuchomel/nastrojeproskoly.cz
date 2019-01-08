@@ -61,11 +61,8 @@
 				padding: 34px
 
 			.work-wrapper
-				margin-bottom: 34px
 
 				.work-container
-					border: 3px solid #8395a7
-					border-radius: 12px
 					padding: 17px
 
 					h4
@@ -73,7 +70,7 @@
 						font-size: 18px
 						line-height: 22px
 						color: #576574
-						margin: 12px 0 0
+						margin: 12px 0 12px
 
 					p
 						margin: 12px 0
@@ -85,6 +82,31 @@
 						margin: 12px 0
 						max-width: 100%
 						height: auto
+						//border: 2px solid #8395a7
+						border-radius: 12px
+						box-shadow: 0 0 0 4px #feca57
+
+@media screen and(max-width: 1080px)
+	#examples-homepage-segment .content-wrap
+		#work-examples-container
+			&:after
+				content: ""
+				display: block
+				clear: both
+
+			.work-column-container
+				width: 50%
+				box-sizing: border-box
+
+				// reset default style
+				&:nth-of-type(3n - 1)
+					padding: 0
+
+				&:nth-of-type(2n - 1)
+					padding: 0 17px 0 0
+
+				&:nth-of-type(2n)
+					padding: 0 0 0 17px
 
 
 @media screen and(max-width: 420px)
