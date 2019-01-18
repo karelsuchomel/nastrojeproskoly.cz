@@ -7,9 +7,11 @@
 	> .content-wrap
 		max-width: 1280px
 		box-sizing: border-box
-		padding: 48px 34px
+		padding: 48px 34px 0
 		margin: 0 auto
 		position: relative
+
+$border-color: #C7D2DF
 
 #examples-homepage-segment .content-wrap
 	.project-details
@@ -41,77 +43,91 @@
 			color: #646464
 			line-height: 1.75
 
-			> a
-				color: inherit
-				text-decoration: none
-				box-shadow: inset 0 -1px #646464
-
 	#work-examples-container
+		margin-top: 68px
+		display: flex
+		justify-content: center
+		align-items: stretch
 		&:after
 			content: ""
 			display: block
 			clear: both
 
-		.work-column-container
+		#desktop-preview-container, #mobile-preview-container
+			display: flex
+			align-items: flex-end
+			box-sizing: border-box
+			padding: 0 34px
 			float: left
-			padding: 34px 0
-			width: calc(33.333332% - 22.6666667px)
+			> img
+				max-width: 100%
+				display: block
+				border-radius: 16px 16px 0 0
+				border: 12px solid $border-color
+				border-top: 32px solid $border-color
+				border-bottom: 0
+				box-shadow: 0 0 0 0px #A0B4CB
+				transition: box-shadow 0.3s
+				cursor: pointer
 
-			&:nth-of-type(3n - 1)
-				padding: 34px
+			> img.focused
+				box-shadow: 0 0 0 6px #A0B4CB
 
-			.work-wrapper
+		#desktop-preview-container
+			padding-left: 126px
+			width: 66.5%
+			> img
+				border: 16px solid $border-color
+				border-top: 22px solid $border-color
+				border-bottom: 0
 
-				.work-container
-					padding: 17px
-
-					h4
-						font-family: 'Source Sans Pro', serif
-						font-size: 18px
-						line-height: 22px
-						color: #576574
-						margin: 12px 0 12px
-
-					p
-						margin: 12px 0
-						font-size: 18px
-						color: #1D2732
-						line-height: 1.75
-
-					img
-						margin: 12px 0
-						max-width: 100%
-						height: auto
-						//border: 2px solid #8395a7
-						border-radius: 12px
-						box-shadow: 0 0 0 4px #feca57
+		#mobile-preview-container
+			padding-right: 126px
+			width: 33.5%
 
 @media screen and(max-width: 1080px)
 	#examples-homepage-segment .content-wrap
 		#work-examples-container
-			&:after
-				content: ""
-				display: block
-				clear: both
+			display: block
+			position: relative
+			max-width: 580px
+			margin-left: auto
+			margin-right: auto
 
-			.work-column-container
-				width: 50%
-				box-sizing: border-box
+			#desktop-preview-container
+				padding-left: 0px
+				float: none
+				width: 100%
 
-				// reset default style
-				&:nth-of-type(3n - 1)
-					padding: 0
+			#mobile-preview-container
+				position: absolute
+				bottom: 0
+				right: 0
+				padding-right: 0px
+				width: 38%
 
-				&:nth-of-type(2n - 1)
-					padding: 0 17px 0 0
 
-				&:nth-of-type(2n)
-					padding: 0 0 0 17px
+@media screen and(max-width: 640px)
+	#examples-homepage-segment .content-wrap #work-examples-container
+		#desktop-preview-container
+			> img
+				border: 6px solid $border-color
+				border-top: 18px solid $border-color
+				border-bottom: 0
 
+		#mobile-preview-container
+			> img
+				border: 6px solid $border-color
+				border-top: 16px solid $border-color
+				border-bottom: 0
 
 @media screen and(max-width: 420px)
-	.grey-backdrop > .content-wrap
-		padding: 48px 17px
+	#examples-homepage-segment .content-wrap
+		padding: 48px 17px 0
+
+		#work-examples-container
+			#mobile-preview-container
+				width: 40%
 
 	#examples-homepage-segment
 		.content-wrap
