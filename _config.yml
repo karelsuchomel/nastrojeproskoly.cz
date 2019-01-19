@@ -18,7 +18,7 @@ email: karelsuchomel@windowslive.com
 description: >- # this means to ignore newlines until "baseurl:"
   Portál pro školy s elegancí.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.nastrojeproskoly.cz" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://karelsuchomel.github.io/tfs-present/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: karelsuchomel
 
 # Build settings
